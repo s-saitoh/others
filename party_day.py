@@ -1,0 +1,10 @@
+from datetime import date, timedelta
+my_day = date(1993, 7, 2)
+days_1000 = my_day + timedelta(days=1000)
+print(days_1000)
+days_5000 = my_day + timedelta(days=5000)
+print(days_5000)
+days_8000 = my_day + timedelta(days=8000)
+print(days_8000)
+days_9000 = my_day + timedelta(days=9000)
+print(days_9000)
