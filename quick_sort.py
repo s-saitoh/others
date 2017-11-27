@@ -20,6 +20,7 @@ def quick_sort(buffer, low, high):
     if high > j + 1:
         quick_sort(buffer, j + 1, high)
 
+
 a = [5, 9, 1, 8, 2, 7, 3, 6, 4]
 quick_sort(a, 0, 8)
 print(a)
